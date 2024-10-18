@@ -114,6 +114,11 @@ public class HelloController {
     }
 
     @FXML
+    private void onResetClick(){
+        calc.reset();
+    }
+
+    @FXML
     private void onEqualClick(){
         String op2 = text.getText();
         calc.setOp2(Double.parseDouble(op2));
