@@ -130,6 +130,7 @@ public class HelloController {
     @FXML
     private void onResetClick(){
         calc.reset();
+        text.setText("");
     }
 
     @FXML
