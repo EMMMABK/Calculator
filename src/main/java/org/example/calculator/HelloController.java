@@ -77,5 +77,47 @@ public class HelloController {
         text.setText(val);
     }
 
+    @FXML
+    private void onPlusClick(){
+        String op1 = text.getText();
+        text.setText("");
 
+        calc.setOp1(Double.parseDouble(op1));
+        calc.setOperator('+');
+    }
+
+    @FXML
+    private void onMinusClick(){
+        String op1 = text.getText();
+        text.setText("");
+
+        calc.setOp1(Double.parseDouble(op1));
+        calc.setOperator('-');
+    }
+
+    @FXML
+    private void onMultiplyClick(){
+        String op1 = text.getText();
+        text.setText("");
+
+        calc.setOp1(Double.parseDouble(op1));
+        calc.setOperator('*');
+    }
+
+    @FXML
+    private void onDivideClick(){
+        String op1 = text.getText();
+        text.setText("");
+
+        calc.setOp1(Double.parseDouble(op1));
+        calc.setOperator('/');
+    }
+
+    @FXML
+    private void onEqualClick(){
+        String op2 = text.getText();
+        calc.setOp2(Double.parseDouble(op2));
+        calc.calculate();
+        text.setText("" + calc.getResult());
+    }
 }
