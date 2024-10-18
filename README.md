@@ -40,7 +40,15 @@ A simple calculator application built using JavaFX, allowing users to perform ba
 
 ## User Interface Screenshots
 
-![Calculator Initial State](screenshots/initial_state.png)
+![Calculator Initial State](./assets/cl2.png)
+![Calculator Initial State](./assets/cl3.png)
+![Calculator Initial State](./assets/cl4.png)
+![Calculator Initial State](./assets/cl5.png)
+![Calculator Initial State](./assets/cl6.png)
+![Calculator Initial State](./assets/cl7.png)
+![Calculator Initial State](./assets/cl8.png)
+![Calculator Initial State](./assets/cl9.png)
+
 
 ## Known Issues
 
